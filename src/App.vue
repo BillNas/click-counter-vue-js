@@ -60,7 +60,6 @@ export default {
   mounted: function(){   
     setInterval(() => {
       this.timer -= 1
-      playing : this.timer > 0
     }, 1000);
   }
 };
